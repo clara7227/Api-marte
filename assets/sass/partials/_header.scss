@@ -1,0 +1,28 @@
+$color-marte: rgb(213, 75, 36);
+$blanco: rgb(255, 255, 255);
+$color-marte-claro: rgb(255, 125, 45);
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    background:$color-marte-claro;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    margin: 15px 7px auto;
+}
+.title-header{
+    color:$blanco;
+    font: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.light {
+    font-weight: normal;
+}

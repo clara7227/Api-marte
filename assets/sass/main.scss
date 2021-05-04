@@ -1,0 +1,89 @@
+@import "lib/vars";
+@import "lib/mixins";
+@import "lib/reboot";
+@import "lib/fontawesome/font-awesome";
+@import "lib/fontface";
+@import "lib/keyframes";
+@import "partials/tables";
+@import "partials/buttons";
+@import "partials/header";
+@import "partials/home";
+@import "partials/pages";
+@import "partials/single";
+
+$color-marte: rgb(157, 56, 28);
+$blanco: rgb(255, 255, 255);
+
+.body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  .body-gradient {
+      position: absolute;
+      height: 62px;
+      width: 375px;
+      background: linear-gradient(180deg, #302525 0%, rgba(48, 37, 37, 0.21) 52.77%, rgba(48, 37, 37, 0) 74.5%);
+      z-index: 1;
+  }
+  .img-background {
+    display: inline-block;
+    background-color: $color-marte;
+    height: 710px;
+    width: 375px;
+    position: absolute;
+    display: block;
+    margin-top: 0;
+    margin-bottom:0;
+  margin-left: auto;
+  margin-right: auto;
+   &.single-background {
+    background-color: black;
+    img {
+      opacity:70%;
+    }
+   }
+  }
+  
+  .img {
+    position: absolute;
+    z-index: 0;
+    margin: 0;
+    top: 0;
+    height: 710px;
+    width: 375px;
+    object-fit: cover;
+    opacity: 50%;
+    
+  }
+
+  header {
+    position: relative;
+    z-index: 1;
+  }
+  main {
+    position: relative;
+    z-index: 1;
+  }
+}
+@media (min-width:750px) {
+  .body {
+    .body-gradient {
+      width: 100%;
+    }
+    .img-background {
+      width: 100%;
+    }
+    .img {
+      width: 100%;
+    }
+  }
+ .table-container {
+   margin: 3em;
+ }
+ .btn-add {
+  align-items: left;
+   margin:0 14em;
+ }
+ .btns-navigation {
+  margin: 3em;
+ }
+}

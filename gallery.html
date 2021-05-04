@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars App - Gallery</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css.map" />
+    <script src="app/js/pouchdb-7.2.1.min.js"></script>
+    <script src="app/js/main.js"></script>
+    <script src="app/js/gallery.js"></script>
+</head>
+
+<body class="body">
+    <div class="background-img-container">
+        <div class="body-gradient"></div>
+        <div class="img-background">
+            <!-- <img class="img" src="assets/img/sunny-mars.jpg"> img prueba-->
+        </div>
+    </div>
+    <header>
+        <div class="header">
+            <h5 class="title-header">Mars</h5>
+            <div class="circle"> </div>
+            <h5 class="title-header light">Weather Report</h5>
+        </div>
+    </header>
+    <main>
+        
+        <h3 class="title">Gallery</h3>
+        <div class="gallery-table">
+             <div class="img-container">
+                <img class="mars-img" src="assets/img/cloudy.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/mars.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/storm-dust.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/sunny-mars.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/sunny-mars.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/storm-dust.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/sunny-mars.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div>
+            <div class="img-container">
+                <img class="mars-img" src="assets/img/sunny-mars.jpg"></img>
+                <div class="btn-delete-img"> Delete </div>
+            </div> 
+           
+        </div>
+        <!-- <div class="btn-add">
+            <div class="fa fa-plus"></div>
+            guardar foto aun no se hacerlo
+            <div class="btn-save-photo"> Save today's photo</div>
+        </div> -->
+        
+        <div class="btns-navigation">
+            
+            <div class="btn-week">
+                <p class="fa fa-angle-left"></p>
+                <a href="index.html">Home</a>
+            </div>
+            <div id="btn-delete-all-imgs">
+
+                <a href="#">Delete all images</a>
+            </div>
+        </div>
+        <!-- VENTANA MODAL -->
+        <!-- <div class="delete-all-img-confirmation">
+            <div class="confirmation-layout">
+                
+                    <div class="title-delete"> Are you sure you want to delete all images?</div>
+                    <div class="confirmation-btn-container">
+                        <div class="confirmation-btn delete-yes">Yes</div>
+                        <div class="confirmation-btn delete-no">No</div>
+                    </div>
+               
+
+            </div>
+        </div> -->
+
+        <!-- <div class="caja"></div> -->
+    </main>
+</body>
+
+</html>

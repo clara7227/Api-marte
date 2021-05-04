@@ -1,0 +1,35 @@
+$fondo-tabla: rgba(24, 22, 31, 0.3);
+$blanco-transparente: rgba(255, 255, 255, 0.7) ;
+
+.table-container {
+    margin: 26px 16px 8px 16px;
+    border-radius: 6px;
+    color: white;
+    background: $fondo-tabla;
+    padding:0.4em 0 1em 0;
+    font-size: 0.9em;
+  }
+.table {
+    padding:0 1em;
+    div {padding: 0.3em 0 0.3em 0;
+    }
+}
+.minmax {
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: 3fr 1fr 1fr ;
+    border-bottom: 1px solid $blanco-transparente;
+    padding: 0.3em 1em 0.3em 1em;
+    margin-bottom: 0.3em;
+}
+.two-values {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr ;
+}
+.one-value {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.centered {
+    text-align: center;
+}

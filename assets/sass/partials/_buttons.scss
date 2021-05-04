@@ -1,0 +1,110 @@
+$color-marte-claro: rgb(255, 125, 45);
+$naranja-claro: #ffc3a0;
+$blanco: rgb(255, 255, 255);
+$blanco-transparente: rgb(255, 255, 255);
+
+.btns-navigation {
+  margin: 48px 16px 24px 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  div {
+    border: 1px solid white;
+  }
+  .btn-week {
+    padding: 0.3em 0.6em 0.4em 0.4em;
+    a {
+      margin-left: 1.3em;
+    }
+  }
+  .btn-gallery {
+    padding: 0.3em 0.6em 0.4em 0.6em;
+  }
+  a {
+    color: white;
+  }
+}
+.btn-navigation {
+  margin: 56px 16px 24px 16px;
+  display: flex;
+  justify-content: right;
+  font-size: 0.9em;
+  div {
+    border: 1px solid white;
+    padding: 0.3em 1.4em 0.4em 0.6em;
+  }
+  a {
+    color: white;
+  }
+}
+//ICONS
+.fa-angle-right, .fa-angle-left {
+  margin-bottom: 0;
+font-size: 18px;
+color: white;
+position: absolute;
+margin: 2px 5px 5px 5px;
+}
+//BTN DERECHA
+// .btn-navigation-right {
+//     margin: 56px 16px 24px 16px;
+//     display: flex;
+//     justify-content: right;
+//     font-size: 0.9em;
+//     div {
+//       border: 1px solid white;
+//       padding: 0.3em 0.6em 0.4em 0.6em;
+//     }
+//     a {
+//       color: white;
+//     }
+//   }
+
+.btn-home {
+  border: 1px solid white;
+  padding: 0.3em 0.6em 0.4em 0.6em;
+  display: flex;
+}
+//GALLERY
+.btn-delete-img {
+  margin-top: 6px;
+  width: 100%;
+  border: 1px solid $color-marte-claro;
+  border-radius: 2px;
+  padding: 0.2em 0.6em 0.3em 0.6em;
+  display: flex;
+  justify-content: center;
+  color: $color-marte-claro;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+#btn-delete-all-imgs {
+  border: 1px solid $naranja-claro;
+  padding: 0.3em 0.6em 0.3em 0.6em;
+  display: flex;
+  justify-content: center;
+  color: $naranja-claro;
+  font-size: 0.9em;
+  height: 28px;
+  margin-top: 2px;
+  a {
+    color: $naranja-claro;
+  }
+}
+//WEEKS
+.btn-more-info {
+    display: flex;
+justify-content: right;
+margin: -30px 0px 0;
+font-size: 0.9em;
+margin-left: 210px;
+
+ p{
+    border: solid 1px white;
+    padding: 0.3em 0.6em 0.35em;
+    margin-bottom: 0px;
+ }
+}
+.btn-week {
+  justify-content: right;
+}
